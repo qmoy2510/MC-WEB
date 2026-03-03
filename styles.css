@@ -510,9 +510,17 @@ footer {
     .mentoring-container {
         gap: 40px;
     }
+
+    section {
+        padding: 80px 30px;
+    }
 }
 
 @media (max-width: 768px) {
+    .nav-content {
+        padding: 0 20px;
+    }
+
     .nav-links li:not(:last-child) {
         display: none;
     }
@@ -520,50 +528,82 @@ footer {
     .hero-section {
         flex-direction: column-reverse;
         text-align: center;
-        padding-top: 120px;
-        padding-bottom: 40px;
+        padding: 120px 20px 40px;
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         margin: 0 auto 30px;
         max-width: 100%;
     }
 
     .hero-visual {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+    }
+
+    .hero-logo {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .glow-sphere {
+        width: 250px;
+        height: 250px;
     }
 
     .hero-cta {
         justify-content: center;
         flex-direction: column;
         gap: 12px;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .hero-cta a {
         width: 100%;
     }
 
+    section {
+        padding: 60px 20px;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
     .cards-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .card {
-        padding: 30px 20px;
+        padding: 24px 20px;
+    }
+
+    .card-icon {
+        font-size: 2rem;
+        margin-bottom: 16px;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
     }
 
     .mentoring-container {
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 30px 20px;
         text-align: center;
+        gap: 30px;
     }
 
     .mentoring-text h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .mentoring-text .features {
@@ -573,10 +613,7 @@ footer {
 
     .mentoring-text .features li {
         font-size: 0.95rem;
-    }
-
-    .section-header h2 {
-        font-size: 2.2rem;
+        margin-bottom: 10px;
     }
 
     .cta-section {
@@ -584,16 +621,22 @@ footer {
     }
 
     .cta-section h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
+    }
+
+    .cta-section p {
+        font-size: 1.05rem;
     }
 
     .glass-panel {
         padding: 20px 15px;
+        gap: 12px;
     }
 
     .chat-bubble {
         font-size: 0.85rem;
-        padding: 12px 16px;
+        padding: 12px 14px;
+        max-width: 90%;
     }
 
     .footer-content {
@@ -604,37 +647,65 @@ footer {
 
 @media (max-width: 480px) {
     .nav-content {
-        padding: 0 20px;
+        padding: 0 16px;
     }
 
     .navbar {
-        padding: 15px 0;
+        padding: 12px 0;
     }
 
-    section {
-        padding: 60px 20px;
+    .logo-img {
+        height: 24px;
+    }
+
+    .btn-primary-sm {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+
+    .hero-section {
+        padding: 100px 16px 30px;
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        margin-bottom: 16px;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
     }
 
     .hero-logo {
-        width: 200px;
+        max-width: 60%;
     }
 
     .glow-sphere {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
+    }
+
+    section {
+        padding: 50px 16px;
     }
 
     .section-header h2,
     .cta-section h2,
     .mentoring-text h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
-    .hero-subtitle {
+    .section-header p {
+        font-size: 0.95rem;
+    }
+
+    .btn-primary {
+        padding: 12px 24px;
+        font-size: 0.95rem;
+    }
+
+    .btn-primary.large {
+        padding: 14px 30px;
         font-size: 1rem;
     }
 }

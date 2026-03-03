@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC | 고등학교 최고 웹 개발 동아리</title>
+    <meta name="description" content="고등학교 웹 개발 동아리 MC. 프론트엔드부터 백엔드, 해커톤까지 함께하며 성장하는 곳입니다.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise-bg"></div>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo-link">
+                <img src="logo.png" alt="MC" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#mentoring">Mentoring</a></li>
+                <li><a href="#join" class="btn-primary-sm">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content reveal">
+                <div class="badge">🔥 신입 부원 절찬 모집중</div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Master</span><br>
+                    <span>Coding.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    프론트엔드부터 백엔드까지, 웹의 모든 것을 다루는<br>
+                    고등학교 최고의 웹 개발 동아리 <strong>MC</strong>
+                </p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn-secondary">알아보기</a>
+                    <a href="#join" class="btn-primary">지원하기</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal delay-1">
+                <div class="glow-sphere"></div>
+                <img src="logo.png" alt="MC Logo" class="hero-logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'200\' viewBox=\'0 0 200 200\'%3E%3Ctext x=\'50%25\' y=\'50%25\' fill=\'white\' font-size=\'80\' font-family=\'Outfit, sans-serif\' font-weight=\'bold\' text-anchor=\'middle\' dominant-baseline=\'middle\'%3E%3C/text%3E%3C/svg%3E'; document.querySelector('.hero-logo').style.filter='none'; document.querySelector('.hero-logo').style.border='2px solid white'; document.querySelector('.hero-logo').style.borderRadius='20px';">
+            </div>
+        </section>
+
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <h2>What We Do</h2>
+                <p>풀스택 웹 개발을 경험하고, 실전 프로젝트를 완성합니다.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Frontend</h3>
+                    <p>사용자와 만나는 첫 화면을 만듭니다. 최신 웹 기술과 아름다운 디자인을 결합하여 매력적인 인터페이스를 구축합니다.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <p>보이지 않는 곳에서 데이터를 다루고 서버를 운영합니다. 빠르고 견고한 아키텍처를 설계하는 방법을 배웁니다.</p>
+                </div>
+                <div class="card" id="activities">
+                    <div class="card-icon">🏆</div>
+                    <h3>Hackathons & Awards</h3>
+                    <p>외부 해커톤, 공모전, 컨퍼런스 등에 적극적으로 참여합니다. 실력을 검증하고 특별한 수상 스펙을 함께 쌓아갑니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="mentoring" class="mentoring-section scroll-reveal">
+            <div class="mentoring-container">
+                <div class="mentoring-text">
+                    <h2>친절하고 확실한<br><span class="highlight">선배들의 멘토링</span></h2>
+                    <p>
+                        "코딩을 아예 몰라도 괜찮나요?"<br>
+                        네, 걱정하지 마세요. 기초부터 심화까지 선배들이 <strong>1:1 밀착 멘토링</strong>으로 친절하게 알려줍니다. 열정만 있다면 누구나 어엿한 개발자로 성장할 수 있습니다.
+                    </p>
+                    <ul class="features">
+                        <li>✔️ 노베이스 대환영, A to Z 기초 가이드 제공</li>
+                        <li>✔️ 정기적인 개발 스터디 및 토이 프로젝트</li>
+                        <li>✔️ 선배들의 실제 배포/런칭 노하우 전수</li>
+                    </ul>
+                </div>
+                <div class="mentoring-visual">
+                    <div class="glass-panel">
+                        <div class="chat-bubble left">웹 개발을 처음 해보는데 잘 할 수 있을까요? 🤔</div>
+                        <div class="chat-bubble right">HTML/CSS부터 차근차근 전부 알려줄게! 주말에 같이 스터디하면서 만들어보자 🔥</div>
+                        <div class="chat-bubble left">앗 감사합니다 선배님!! 열심히 해볼게요!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="cta-section scroll-reveal">
+            <h2>지금 바로 MC와 함께하세요</h2>
+            <p>당신의 첫 번째 웹 프로젝트, 우리와 함께 시작합시다.</p>
+            <a href="#" class="btn-primary large" onclick="alert('지원 폼 링크 준비중입니다.')">동아리 지원 폼 작성하기</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="logo.png" alt="MC" class="footer-logo" onerror="this.style.display='none'">
+            <p>&copy; 2026 High School Web Development Club MC. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Github</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

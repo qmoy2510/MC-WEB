@@ -543,6 +543,7 @@ footer {
 
     .hero-visual {
         margin-bottom: 30px;
+        justify-content: center;
     }
 
     .hero-logo {
